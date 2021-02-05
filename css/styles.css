@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.wrapper > *{
+     flex: 1 100%;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: #EEEEEE;
+}
+header{
+    border: 1px solid;
+    background: #23374D;
+    height:80px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    
+}
+article{
+    flex: 1;
+    background: #0085FF;
+    height: 450px;
+    
+}
+aside{
+    flex: 1;
+    background:#85c3FF;
+    height: 450px;
+}
+footer{
+    background: #FFFFFF;
+    height: 80px;
+}
